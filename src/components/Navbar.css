@@ -1,0 +1,37 @@
+body{
+    background-color: bisque;
+}
+
+header{
+    background-color: rgb(248, 195, 116);
+}
+
+.titulo{
+    font-size: 30px;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    margin: auto;
+}
+
+.contenedor-links{
+    display: flex;
+    justify-content: center;
+
+}
+.links{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contenedorBoton{
+    display: flex;
+  justify-content: end;
+  margin-right: 10px;
+}
+.greeting{
+    text-align: center;
+    color: black;
+}
