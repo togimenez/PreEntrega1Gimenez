@@ -28,8 +28,8 @@ header{
 
 .contenedorBoton{
     display: flex;
-  justify-content: end;
-  margin-right: 10px;
+    justify-content: flex-end;
+    margin-right: 10px;
 }
 .greeting{
     text-align: center;
