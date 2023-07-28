@@ -3,10 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //componentes
 import Navbar from './components/Navbar2';
-import ItemListContainer from './components/ItemListContainer';
 import Home from './components/Home';
-import Menu from './components/Menu';
-import Informacion from './components/Informacion';
+import Catalogo from './components/Catalogo';
 
 function App() {
   return (
@@ -15,11 +13,9 @@ function App() {
 
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/menu" element={<Menu />} />
-        <Route exact path="/informacion" element={<Informacion />} />
+        <Route exact path="/catalogo" element={<Catalogo />} />
       </Routes>
         
-      <ItemListContainer greeting='Bienvenidos a Comidas Rapidas'/> 
     </BrowserRouter>
   );
 }
