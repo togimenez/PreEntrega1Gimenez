@@ -15,10 +15,7 @@ function Catalogo () {
             <img src={AirMaxCommand} className="card-img-top" alt="foto de air 95"/>
                 <div className="card-body">
                     <h5 className="card-title">AirMaxCommand</h5>
-                    <p className="card-text">
-                        Marca: Nike / Tipo de producto: Zapatillas
-                        Disciplina:	Moda / Color:  Negro
-                        Género:	Hombre / Material: Cuero Natural</p>
+                    <p className="card-text"></p>
                     <NavLink to="/informacion" className="btn btn-primary">Mas Info talle</NavLink>
                 </div>
             </div>
@@ -26,11 +23,7 @@ function Catalogo () {
             <img src={BmwElectron} className="card-img-top" alt="foto de air 95"/>
                 <div className="card-body">
                     <h5 className="card-title">BmwElectron</h5>
-                    <p className="card-text">
-                        Marca:	Puma / Tipo de producto:  Zapatillas
-                        Disciplina : Moda / Color:	Blanco / 
-                        Género:	Unisex / Material:	Poliéster
-                    </p>
+                    <p className="card-text"></p>
                     <NavLink to="/informacion" className="btn btn-primary">Mas Info talles</NavLink>
                 </div>
             </div>
@@ -38,11 +31,7 @@ function Catalogo () {
             <img src={Barricade} className="card-img-top" alt="foto de air 95"/>
                 <div className="card-body">
                     <h5 className="card-title">Barricade</h5>
-                    <p className="card-text">
-                        Marca:	Adidas / Tipo de producto:  Zapatillas
-                        Disciplina:	Tenis / Color:	Blanco
-                        Género:	Hombre / Material:	Materiales reciclados
-                    </p>
+                    <p className="card-text"></p>
                     <NavLink to="/informacion" className="btn btn-primary">Mas info talles</NavLink>
                 </div>
             </div>
@@ -50,11 +39,7 @@ function Catalogo () {
             <img src={Nanox3}className="card-img-top" alt="foto de air 95"/>
                 <div className="card-body">
                     <h5 className="card-title">Nanox3</h5>
-                    <p className="card-text">
-                        Marca:  Reebok / Tipo de producto: Zapatillas
-                        Disciplina:  Training / Color:  Negro
-                        Género: Unisex / Material:  Poliéster
-                    </p>
+                    <p className="card-text"></p>
                     <NavLink to="/informacion" className="btn btn-primary">Mas Info talle</NavLink>
                 </div>
             </div>
@@ -62,11 +47,7 @@ function Catalogo () {
             <img src={Courtijam} className="card-img-top" alt="foto de air 95"/>
                 <div className="card-body">
                     <h5 className="card-title">Courtijam</h5>
-                    <p className="card-text">
-                        Marca:	Adidas / Tipo de producto:  Zapatillas
-                        Disciplina:	Tenis / Color:	Blanco
-                        Género:	Hombre / Material:	Materiales reciclados
-                    </p>
+                    <p className="card-text"></p>
                     <NavLink to="/informacion" className="btn btn-primary">Mas Info talles</NavLink>
                 </div>
             </div>
@@ -74,11 +55,7 @@ function Catalogo () {
             <img src={Galaxy6} className="card-img-top" alt="foto de air 95"/>
                 <div className="card-body">
                     <h5 className="card-title">Galaxy6</h5>
-                    <p className="card-text">
-                        Marca:	Adidas / Tipo de producto:	Zapatillas
-                        Disciplina:	Running / Color:	Negro
-                        Género:	Mujer / Material:	Materiales reciclados
-                    </p>
+                    <p className="card-text"></p>
                     <NavLink to="/informacion" className="btn btn-primary">Mas info talles</NavLink>
                 </div>
             </div>

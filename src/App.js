@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //componentes
 import Navbar from './components/Navbar2';
-import Home from './components/Home';
-import Catalogo from './components/Catalogo';
+// import Catalogo from './components/Catalogo';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
@@ -12,8 +12,9 @@ function App() {
       <Navbar/>
 
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/catalogo" element={<Catalogo />} />
+        <Route exact path="/" element={<ItemListContainer />} />
+        <Route exact path="/catalogo/:CatalogoId" element={<ItemListContainer />} />
+        {/* <Route exact path="/catalogo" element={<Catalogo />} /> */}
       </Routes>
         
     </BrowserRouter>
